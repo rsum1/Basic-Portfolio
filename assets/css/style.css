@@ -1,0 +1,31 @@
+#hr1 {
+    margin-top: 0.9em;
+}
+#about-me {
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: rgb(70, 157, 163);
+    display: inline;
+    margin: 125px;
+    padding: 15px;
+}
+#topLink1 {
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 800px;
+}
+#topLink2 {
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 850px;
+}
+#topLink3 {
+    position: fixed;
+    margin-top: 10px;
+    margin-left: 915px;
+}
+
+#content {
+    hr
+    float: top;
+}
