@@ -1,31 +1,62 @@
-#hr1 {
-    margin-top: 0.9em;
+#header {
+    height: 58px;
+    line-height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(150, 148, 148);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
-#about-me {
+
+#header * {
+    display: inline;
+}
+
+#my-name {
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: rgb(70, 157, 163);
-    display: inline;
-    margin: 125px;
+    margin-left: auto;
+    margin: 235px;
     padding: 15px;
 }
-#topLink1 {
-    position: fixed;
-    margin-top: 10px;
-    margin-left: 800px;
-}
-#topLink2 {
-    position: fixed;
-    margin-top: 10px;
-    margin-left: 850px;
-}
-#topLink3 {
-    position: fixed;
-    margin-top: 10px;
-    margin-left: 915px;
+
+#about-container {
+    background-color: white;
+    top: 600px;
+    border: 1px solid rgb(150, 148, 148);
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+
 }
 
-#content {
-    hr
-    float: top;
+#about-me {
+    color:  rgb(70, 157, 163);
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: white;
+    padding: 15px;
+    padding-top: 0px;
+    border-bottom: 2px solid rgb(150, 148, 148);
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#navigation {
+    margin-left: 450px;
+}
+#navigation li:not(:first-child):before {
+    content: " | ";
+    color: gray;
+}
+
+#about-container img {
+    float: left;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width:150px;
+    height:150px;
 }
