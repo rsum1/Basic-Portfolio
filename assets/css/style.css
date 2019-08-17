@@ -31,7 +31,7 @@
     padding: 15px;
 }
 
-.container {
+.containerIndex {
     background-color: white;
     top: 600px;
     border: 1px solid rgb(150, 148, 148);
@@ -40,8 +40,29 @@
     margin-right: 215px;
     margin-top: 100px;
     height: 100%;
-
-
+    padding-bottom: 150px;
+}
+.containerPortfolio {
+    background-color: white;
+    top: 600px;
+    border: 1px solid rgb(150, 148, 148);
+    width: 960px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 100px;
+    height: 100%;
+    padding-bottom: 500px;
+}
+.containerContact {
+    background-color: white;
+    top: 600px;
+    border: 1px solid rgb(150, 148, 148);
+    width: 960px;
+    margin-left: 215px;
+    margin-right: 215px;
+    margin-top: 100px;
+    height: 100%;
+    padding-bottom: 55px;
 }
 
 .containerHeader {
@@ -80,41 +101,74 @@
     background-color: white
 }
 
-/* .columnL {
-margin-left: 25px;
-margin-right: 10px;
-margin-bottom: 10px;
-width:250px;
-height:250px;
-}
-
-.columnR {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    width:250px;
-    height:250px;
-    } */
-
-#hangman {
-    position: relative 
-    top: 200px; 
-    left: 0; 
-    width: 100%; 
-    }
-
-#hangmantext {
+.hangmanText {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: rgb(247, 18, 18);
-  padding-left: 20px;
-  padding-right: 20px;
+  top: 320px;
+  left: 245px;
+  background-color: rgb(70, 157, 163);
+  color: white;
+  padding-left: 72px;
+  padding-right: 72px;
   }
 
-  /* #rpg {
-      display: inline;
-      margin-left: 300px;
-      margin-top: 0px
-  } */
+.rpgText {
+    position: absolute;
+    top: 320px;
+    left: 494px;
+    background-color: rgb(70, 157, 163);
+    color: white;
+    padding-left: 67px;
+    padding-right: 66px;
+  }
+  .triviaText {
+    position: absolute;
+    top: 320px;
+    left: 744px;
+    background-color: rgb(70, 157, 163);
+    color: white;
+    padding-left: 62px;
+    padding-right: 62px;
+  }
+  .widgetText {
+    position: absolute;
+    top: 550px;
+    left: 245px;
+    background-color: rgb(70, 157, 163);
+    color: white;
+    padding-left: 83px;
+    padding-right: 83px;
+  }
+  .rpsText {
+    position: absolute;
+    top: 550px;
+    left: 494px;
+    background-color: rgb(70, 157, 163);
+    color: white;
+    padding-left: 31px;
+    padding-right: 31px;
+  }
+  .form{
+      padding-left: 30px;
+      color: gray;
+  }
+
+.inputField{
+    width: 900px;
+    padding-bottom: 10px;
+    margin-bottom: 8px;
+}
+.messageField{
+    width: 900px;
+    padding-bottom: 400px;
+    margin-bottom: 8px;
+}
+.button{
+    color: white;
+    font-size: 14px;
+    background-color: rgb(70, 157, 163);
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 30px;
+}
